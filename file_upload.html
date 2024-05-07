@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Page</title>
+</head>
+<body>
+    <h2>File Upload Page</h2>
+    <p>API Key: {{ current_user_password_hash }}</p>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+    <!-- <iframe src="map.html" width="800" height="600" frameborder="0"></iframe> -->
+</body>
+</html>
